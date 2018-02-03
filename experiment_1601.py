@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from psychopy import visual, core, event, gui, logging
-#Turns off annoying warnings
+#Turns off warnings
 logging.console.setLevel(logging.CRITICAL)
 from time import strftime
 import random
