@@ -18,7 +18,7 @@ DEBUG = False
 
 PARTICIPANT_DATA = None
 
-conditions_order = [1,2]*1#*55
+conditions_order = [1,2]*55
 #random.shuffle(conditions_order)
 
 FRAME_RATE = None
