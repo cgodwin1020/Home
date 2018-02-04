@@ -176,7 +176,7 @@ def playMovies(j):
 	mov = visual.MovieStim(win, videoFile, size=[854, 480],flipVert=False, flipHoriz=True)
 	globalClock = core.Clock()
 
-	while globalClock.getTime()<30:    #movie duration is 15 seconds
+	while globalClock.getTime()<15:    #movie duration is 15 seconds
 		mov.draw()
 		win.flip()   #win.update
  	
